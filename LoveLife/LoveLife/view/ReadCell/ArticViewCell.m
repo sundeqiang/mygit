@@ -44,6 +44,16 @@
     _timeLable.text = model.createtime;
 }
 
+- (void)refreshUI:(ReadModel *)model indexPath:(NSIndexPath *)indexPath{
+    NSMutableAttributedString *string = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%ld:%@",(long)indexPath.row + 1,model.title]];
+    if (indexPath.row + 1 > 9){
+        [string addAttributes:@{NSForegroundColorAttributeName:[UIColor redColor]} range:NSMakeRange(0, 3)];
+    }else{
+        [string addAttributes:@{NSForegroundColorAttributeName:[UIColor redColor]} range:NSMakeRange(0, 2)];
+    }
+    _titleLable.attributedText = string;
+}
+
 - (void)awakeFromNib {
     // Initialization code
 }

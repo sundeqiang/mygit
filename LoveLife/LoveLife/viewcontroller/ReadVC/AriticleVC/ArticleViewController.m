@@ -88,14 +88,14 @@
     }
     if (self.dataArray){
         ReadModel *model = self.dataArray[indexPath.row];
-        [cell refreshUI:model];
+        [cell refreshUI:model ];
     }
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 150;
+    return 130;
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath

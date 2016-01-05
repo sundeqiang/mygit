@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC06B8491C34C1EB00C453EC /* TitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8481C34C1EB00C453EC /* TitleCollectionViewCell.m */; };
+		BC06B84C1C34C1F700C453EC /* FoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B84B1C34C1F700C453EC /* FoodCollectionViewCell.m */; };
+		BC06B84F1C34C35F00C453EC /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B84E1C34C35F00C453EC /* FoodModel.m */; };
+		BC06B8521C34DAD000C453EC /* MpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8511C34DAD000C453EC /* MpViewController.m */; };
+		BC06B8551C350D1400C453EC /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8541C350D1400C453EC /* RecordTableViewCell.m */; };
+		BC06B85A1C350DB400C453EC /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8591C350DB400C453EC /* RecordModel.m */; };
+		BC06B85D1C3A01ED00C453EC /* FoodDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B85C1C3A01ED00C453EC /* FoodDetailTableViewCell.m */; };
+		BC06B8601C3A02B000C453EC /* FoodDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B85F1C3A02B000C453EC /* FoodDetailModel.m */; };
+		BC06B8661C3A05C900C453EC /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8651C3A05C900C453EC /* FoodDetailViewController.m */; };
+		BC06B8691C3A49E000C453EC /* MusizCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8681C3A49E000C453EC /* MusizCollectionViewCell.m */; };
+		BC06B86C1C3A4BF200C453EC /* MusicCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B86B1C3A4BF200C453EC /* MusicCollectionReusableView.m */; };
+		BC06B8721C3A52D800C453EC /* MusicDateilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8711C3A52D800C453EC /* MusicDateilViewController.m */; };
+		BC06B8761C3A553C00C453EC /* musicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8751C3A553C00C453EC /* musicModel.m */; };
+		BC06B8791C3A556200C453EC /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8781C3A556200C453EC /* MusicListCell.m */; };
+		BC06B8BD1C3B555200C453EC /* MusicPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06B8BC1C3B555200C453EC /* MusicPlayViewController.m */; };
 		BCBF2FAE1C3219CB00853838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF2FAD1C3219CB00853838 /* main.m */; };
 		BCBF2FB11C3219CB00853838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF2FB01C3219CB00853838 /* AppDelegate.m */; };
 		BCBF2FB71C3219CB00853838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBF2FB51C3219CB00853838 /* Main.storyboard */; };
@@ -251,6 +266,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC06B8471C34C1EB00C453EC /* TitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCollectionViewCell.h; sourceTree = "<group>"; };
+		BC06B8481C34C1EB00C453EC /* TitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCollectionViewCell.m; sourceTree = "<group>"; };
+		BC06B84A1C34C1F700C453EC /* FoodCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCollectionViewCell.h; sourceTree = "<group>"; };
+		BC06B84B1C34C1F700C453EC /* FoodCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCollectionViewCell.m; sourceTree = "<group>"; };
+		BC06B84D1C34C35F00C453EC /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodModel.h; path = ../../FoodModel.h; sourceTree = "<group>"; };
+		BC06B84E1C34C35F00C453EC /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodModel.m; path = ../../FoodModel.m; sourceTree = "<group>"; };
+		BC06B8501C34DAD000C453EC /* MpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpViewController.h; sourceTree = "<group>"; };
+		BC06B8511C34DAD000C453EC /* MpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MpViewController.m; sourceTree = "<group>"; };
+		BC06B8531C350D1400C453EC /* RecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordTableViewCell.h; path = ../RecordTableViewCell.h; sourceTree = "<group>"; };
+		BC06B8541C350D1400C453EC /* RecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordTableViewCell.m; path = ../RecordTableViewCell.m; sourceTree = "<group>"; };
+		BC06B8581C350DB400C453EC /* RecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordModel.h; sourceTree = "<group>"; };
+		BC06B8591C350DB400C453EC /* RecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordModel.m; sourceTree = "<group>"; };
+		BC06B85B1C3A01ED00C453EC /* FoodDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailTableViewCell.h; sourceTree = "<group>"; };
+		BC06B85C1C3A01ED00C453EC /* FoodDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailTableViewCell.m; sourceTree = "<group>"; };
+		BC06B85E1C3A02B000C453EC /* FoodDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailModel.h; sourceTree = "<group>"; };
+		BC06B85F1C3A02B000C453EC /* FoodDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailModel.m; sourceTree = "<group>"; };
+		BC06B8641C3A05C900C453EC /* FoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailViewController.h; sourceTree = "<group>"; };
+		BC06B8651C3A05C900C453EC /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
+		BC06B8671C3A49DF00C453EC /* MusizCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusizCollectionViewCell.h; sourceTree = "<group>"; };
+		BC06B8681C3A49E000C453EC /* MusizCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusizCollectionViewCell.m; sourceTree = "<group>"; };
+		BC06B86A1C3A4BF200C453EC /* MusicCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCollectionReusableView.h; sourceTree = "<group>"; };
+		BC06B86B1C3A4BF200C453EC /* MusicCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCollectionReusableView.m; sourceTree = "<group>"; };
+		BC06B8701C3A52D800C453EC /* MusicDateilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDateilViewController.h; sourceTree = "<group>"; };
+		BC06B8711C3A52D800C453EC /* MusicDateilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDateilViewController.m; sourceTree = "<group>"; };
+		BC06B8741C3A553C00C453EC /* musicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicModel.h; sourceTree = "<group>"; };
+		BC06B8751C3A553C00C453EC /* musicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = musicModel.m; sourceTree = "<group>"; };
+		BC06B8771C3A556200C453EC /* MusicListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
+		BC06B8781C3A556200C453EC /* MusicListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
+		BC06B8BB1C3B555200C453EC /* MusicPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayViewController.h; sourceTree = "<group>"; };
+		BC06B8BC1C3B555200C453EC /* MusicPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayViewController.m; sourceTree = "<group>"; };
 		BCBF2FA91C3219CB00853838 /* LoveLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBF2FAD1C3219CB00853838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCBF2FAF1C3219CB00853838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -602,8 +647,8 @@
 		BCBF32441C3381A100853838 /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
 		BCBF32461C3381B200853838 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
 		BCBF32471C3381B200853838 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
-		BCBF32491C33AEE600853838 /* ReadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadModel.h; sourceTree = "<group>"; };
-		BCBF324A1C33AEE600853838 /* ReadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadModel.m; sourceTree = "<group>"; };
+		BCBF32491C33AEE600853838 /* ReadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadModel.h; path = ../../ReadModel.h; sourceTree = "<group>"; };
+		BCBF324A1C33AEE600853838 /* ReadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReadModel.m; path = ../../ReadModel.m; sourceTree = "<group>"; };
 		BCBF324D1C33B30B00853838 /* ArticViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticViewCell.h; sourceTree = "<group>"; };
 		BCBF324E1C33B30B00853838 /* ArticViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticViewCell.m; sourceTree = "<group>"; };
 		BCBF32501C33CAA500853838 /* ArticDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticDetailViewController.h; sourceTree = "<group>"; };
@@ -663,15 +708,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC06B8461C34C1BC00C453EC /* FoodCell */ = {
+			isa = PBXGroup;
+			children = (
+				BC06B8471C34C1EB00C453EC /* TitleCollectionViewCell.h */,
+				BC06B8481C34C1EB00C453EC /* TitleCollectionViewCell.m */,
+				BC06B84A1C34C1F700C453EC /* FoodCollectionViewCell.h */,
+				BC06B84B1C34C1F700C453EC /* FoodCollectionViewCell.m */,
+				BC06B85B1C3A01ED00C453EC /* FoodDetailTableViewCell.h */,
+				BC06B85C1C3A01ED00C453EC /* FoodDetailTableViewCell.m */,
+			);
+			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		BC06B8561C350D6500C453EC /* FoodModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC06B84D1C34C35F00C453EC /* FoodModel.h */,
+				BC06B84E1C34C35F00C453EC /* FoodModel.m */,
+				BC06B85E1C3A02B000C453EC /* FoodDetailModel.h */,
+				BC06B85F1C3A02B000C453EC /* FoodDetailModel.m */,
+			);
+			name = FoodModel;
+			path = HomeModel/FoodModel;
+			sourceTree = "<group>";
+		};
+		BC06B8571C350D6500C453EC /* ReadModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF32491C33AEE600853838 /* ReadModel.h */,
+				BCBF324A1C33AEE600853838 /* ReadModel.m */,
+				BC06B8581C350DB400C453EC /* RecordModel.h */,
+				BC06B8591C350DB400C453EC /* RecordModel.m */,
+			);
+			name = ReadModel;
+			path = HomeModel/ReadModel;
+			sourceTree = "<group>";
+		};
+		BC06B8731C3A551700C453EC /* MusizModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC06B8741C3A553C00C453EC /* musicModel.h */,
+				BC06B8751C3A553C00C453EC /* musicModel.m */,
+			);
+			path = MusizModel;
+			sourceTree = "<group>";
+		};
 		BCBF2FA01C3219CB00853838 = {
 			isa = PBXGroup;
 			children = (
-				BCBF325D1C33D64400853838 /* libz.tbd */,
-				BCBF325B1C33D61E00853838 /* libstdc++.tbd */,
-				BCBF32591C33D5FB00853838 /* CoreTelephony.framework */,
-				BCBF32571C33D5EE00853838 /* CoreGraphics.framework */,
-				BCBF32551C33D5E300853838 /* SystemConfiguration.framework */,
-				BCBF32531C33D5D400853838 /* Security.framework */,
 				BCBF32381C32A66B00853838 /* framework */,
 				BCBF2FAB1C3219CB00853838 /* LoveLife */,
 				BCBF2FC51C3219CC00853838 /* LoveLifeTests */,
@@ -1388,9 +1473,10 @@
 		BCBF32041C32217A00853838 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				BC06B8731C3A551700C453EC /* MusizModel */,
+				BC06B8561C350D6500C453EC /* FoodModel */,
+				BC06B8571C350D6500C453EC /* ReadModel */,
 				BCBF32301C3272A700853838 /* HomeModel */,
-				BCBF32491C33AEE600853838 /* ReadModel.h */,
-				BCBF324A1C33AEE600853838 /* ReadModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -1398,10 +1484,17 @@
 		BCBF32051C32217A00853838 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BC06B8461C34C1BC00C453EC /* FoodCell */,
 				BCBF324C1C33B2D700853838 /* ReadCell */,
 				BCBF32341C3278B900853838 /* HomeCell */,
 				BCBF322A1C32355C00853838 /* GuidePageView.h */,
 				BCBF322B1C32355C00853838 /* GuidePageView.m */,
+				BC06B8671C3A49DF00C453EC /* MusizCollectionViewCell.h */,
+				BC06B8681C3A49E000C453EC /* MusizCollectionViewCell.m */,
+				BC06B86A1C3A4BF200C453EC /* MusicCollectionReusableView.h */,
+				BC06B86B1C3A4BF200C453EC /* MusicCollectionReusableView.m */,
+				BC06B8771C3A556200C453EC /* MusicListCell.h */,
+				BC06B8781C3A556200C453EC /* MusicListCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1437,6 +1530,10 @@
 			children = (
 				BCBF32181C32267A00853838 /* FoodViewController.h */,
 				BCBF32191C32267A00853838 /* FoodViewController.m */,
+				BC06B8641C3A05C900C453EC /* FoodDetailViewController.h */,
+				BC06B8651C3A05C900C453EC /* FoodDetailViewController.m */,
+				BC06B8501C34DAD000C453EC /* MpViewController.h */,
+				BC06B8511C34DAD000C453EC /* MpViewController.m */,
 			);
 			path = FoodVC;
 			sourceTree = "<group>";
@@ -1457,6 +1554,10 @@
 			children = (
 				BCBF321B1C3226A500853838 /* MusicViewController.h */,
 				BCBF321C1C3226A500853838 /* MusicViewController.m */,
+				BC06B8701C3A52D800C453EC /* MusicDateilViewController.h */,
+				BC06B8711C3A52D800C453EC /* MusicDateilViewController.m */,
+				BC06B8BB1C3B555200C453EC /* MusicPlayViewController.h */,
+				BC06B8BC1C3B555200C453EC /* MusicPlayViewController.m */,
 			);
 			path = MusciVC;
 			sourceTree = "<group>";
@@ -1502,6 +1603,12 @@
 		BCBF32381C32A66B00853838 /* framework */ = {
 			isa = PBXGroup;
 			children = (
+				BCBF325D1C33D64400853838 /* libz.tbd */,
+				BCBF325B1C33D61E00853838 /* libstdc++.tbd */,
+				BCBF32591C33D5FB00853838 /* CoreTelephony.framework */,
+				BCBF32571C33D5EE00853838 /* CoreGraphics.framework */,
+				BCBF32551C33D5E300853838 /* SystemConfiguration.framework */,
+				BCBF32531C33D5D400853838 /* Security.framework */,
 				BCBF323A1C32B31400853838 /* AVFoundation.framework */,
 				BCBF31F31C321ADA00853838 /* CoreLocation.framework */,
 				BCBF31F91C321BB400853838 /* libiconv.tbd */,
@@ -1547,6 +1654,8 @@
 			children = (
 				BCBF324D1C33B30B00853838 /* ArticViewCell.h */,
 				BCBF324E1C33B30B00853838 /* ArticViewCell.m */,
+				BC06B8531C350D1400C453EC /* RecordTableViewCell.h */,
+				BC06B8541C350D1400C453EC /* RecordTableViewCell.m */,
 			);
 			path = ReadCell;
 			sourceTree = "<group>";
@@ -1808,14 +1917,18 @@
 				BCBF31E01C3219F900853838 /* split.c in Sources */,
 				BCBF322C1C32355C00853838 /* GuidePageView.m in Sources */,
 				BCBF31B11C3219F900853838 /* NSData+ImageContentType.m in Sources */,
+				BC06B8521C34DAD000C453EC /* MpViewController.m in Sources */,
 				BCBF32451C3381A100853838 /* ArticleViewController.m in Sources */,
 				BCBF31B41C3219F900853838 /* SDWebImageDecoder.m in Sources */,
 				BCBF32521C33CAA500853838 /* ArticDetailViewController.m in Sources */,
 				BCBF32481C3381B200853838 /* RecordViewController.m in Sources */,
+				BC06B8BD1C3B555200C453EC /* MusicPlayViewController.m in Sources */,
 				BCBF31A11C3219F900853838 /* MJRefreshHeader.m in Sources */,
+				BC06B85D1C3A01ED00C453EC /* FoodDetailTableViewCell.m in Sources */,
 				BCBF31A21C3219F900853838 /* MJRefreshAutoGifFooter.m in Sources */,
 				BCBF31891C3219F900853838 /* AFHTTPRequestOperationManager.m in Sources */,
 				BCBF31961C3219F900853838 /* FactoryUI.m in Sources */,
+				BC06B8791C3A556200C453EC /* MusicListCell.m in Sources */,
 				BCBF319C1C3219F900853838 /* MBProgressHUD.m in Sources */,
 				BCBF31B71C3219F900853838 /* SDWebImageManager.m in Sources */,
 				BCBF32371C3278D600853838 /* HomeTableViewCell.m in Sources */,
@@ -1826,6 +1939,7 @@
 				BCBF31911C3219F900853838 /* FLSideSlipViewController.m in Sources */,
 				BCBF31B31C3219F900853838 /* SDWebImageCompat.m in Sources */,
 				BCBF31B21C3219F900853838 /* SDImageCache.m in Sources */,
+				BC06B85A1C350DB400C453EC /* RecordModel.m in Sources */,
 				BCBF31D81C3219F900853838 /* CustomViewController.mm in Sources */,
 				BCBF318B1C3219F900853838 /* AFNetworkReachabilityManager.m in Sources */,
 				BCBF31B81C3219F900853838 /* SDWebImagePrefetcher.m in Sources */,
@@ -1838,6 +1952,7 @@
 				BCBF31A01C3219F900853838 /* MJRefreshFooter.m in Sources */,
 				BCBF320F1C32223A00853838 /* RootViewController.m in Sources */,
 				BCBF31A31C3219F900853838 /* MJRefreshAutoNormalFooter.m in Sources */,
+				BC06B8491C34C1EB00C453EC /* TitleCollectionViewCell.m in Sources */,
 				BCBF31951C3219F900853838 /* UIViewController+MMDrawerController.m in Sources */,
 				BCBF31BC1C3219F900853838 /* UIImage+WebP.m in Sources */,
 				BCBF32121C32227700853838 /* MyTabBarViewController.m in Sources */,
@@ -1852,6 +1967,7 @@
 				BCBF31A81C3219F900853838 /* MJRefreshGifHeader.m in Sources */,
 				BCBF321A1C32267A00853838 /* FoodViewController.m in Sources */,
 				BCBF31C11C3219F900853838 /* CycleImageCell.m in Sources */,
+				BC06B84F1C34C35F00C453EC /* FoodModel.m in Sources */,
 				BCBF31DF1C3219F900853838 /* rscode.c in Sources */,
 				BCBF31A61C3219F900853838 /* MJRefreshBackNormalFooter.m in Sources */,
 				BCBF318A1C3219F900853838 /* AFHTTPSessionManager.m in Sources */,
@@ -1860,6 +1976,8 @@
 				BCBF31AE1C3219F900853838 /* UIScrollView+MJRefresh.m in Sources */,
 				BCBF31DE1C3219F900853838 /* qrspec.c in Sources */,
 				BCBF31C41C3219F900853838 /* ZLSwipeableView.m in Sources */,
+				BC06B8551C350D1400C453EC /* RecordTableViewCell.m in Sources */,
+				BC06B84C1C34C1F700C453EC /* FoodCollectionViewCell.m in Sources */,
 				BCBF32201C3226DF00853838 /* HomeViewController.m in Sources */,
 				BCBF318E1C3219F900853838 /* AFURLRequestSerialization.m in Sources */,
 				BCBF31B61C3219F900853838 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -1872,11 +1990,17 @@
 				BCBF322F1C32600500853838 /* LeftViewController.m in Sources */,
 				BCBF2FAE1C3219CB00853838 /* main.m in Sources */,
 				BCBF31DD1C3219F900853838 /* qrinput.c in Sources */,
+				BC06B8661C3A05C900C453EC /* FoodDetailViewController.m in Sources */,
+				BC06B8761C3A553C00C453EC /* musicModel.m in Sources */,
+				BC06B8721C3A52D800C453EC /* MusicDateilViewController.m in Sources */,
+				BC06B8601C3A02B000C453EC /* FoodDetailModel.m in Sources */,
 				BCBF319F1C3219F900853838 /* MJRefreshComponent.m in Sources */,
+				BC06B8691C3A49E000C453EC /* MusizCollectionViewCell.m in Sources */,
 				BCBF319A1C3219F900853838 /* FMDatabaseQueue.m in Sources */,
 				BCBF31C21C3219F900853838 /* NBWaterFlowLayout.m in Sources */,
 				BCBF31921C3219F900853838 /* MMDrawerBarButtonItem.m in Sources */,
 				BCBF323F1C33697600853838 /* HomeDetailViewController.m in Sources */,
+				BC06B86C1C3A4BF200C453EC /* MusicCollectionReusableView.m in Sources */,
 				BCBF31BF1C3219F900853838 /* UIView+WebCacheOperation.m in Sources */,
 				BCBF31981C3219F900853838 /* FMDatabaseAdditions.m in Sources */,
 			);

@@ -20,4 +20,6 @@
 
 - (void)refreshUI:(ReadModel *)model;
 
+- (void)refreshUI:(ReadModel *)model indexPath:(NSIndexPath *)indexPath;
+
 @end

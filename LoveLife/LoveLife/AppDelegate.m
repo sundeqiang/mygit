@@ -25,7 +25,13 @@
 @property (nonatomic ,strong) GuidePageView *guidePage;
 
 @end
-
+/**
+ *  页面的几种架构
+    1.分栏式
+    2.单页式
+    3.滚动式
+    4.抽屉式
+ */
 @implementation AppDelegate
 
 
